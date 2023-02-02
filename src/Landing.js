@@ -91,7 +91,7 @@ export default function Landing() {
                 </div>
 
                 <div className='row-center back'>
-                    <div className="bn53 row-center">Github</div>
+                   <a className="no-dec" href="https://github.com/joelkoehler"><div className="bn53 row-center" >Github</div></a> 
                 </div>
 
                 <div className='type-small banner'>// Skills</div>
@@ -103,7 +103,7 @@ export default function Landing() {
                             <Tab>Mobile</Tab>
                             <Tab>UI</Tab>
                             <Tab>Firmware</Tab>
-                            <Tab>Enterprise</Tab>
+                            <Tab>Processes & Tools</Tab>
                             <Tab>Testing</Tab>
                             <Tab>Design</Tab>
                         </TabList>
@@ -111,9 +111,10 @@ export default function Landing() {
                         <TabPanel>
                             <ul>
                                 <li>Top 3 languages: Javascript/Typescript, Java, Python</li>
-                                <li>Familiar with Dotnet/VB.NET/C#</li>
+                                <li>Experience developing for large codebases in HP's print division</li>
                                 <li>Databases: mongoDB, MySQL</li>
                                 <li >C/C++</li>
+                                <li>Familiar with Dotnet/VB.NET/C#</li>
                                 <li>Audio: understanding of basic theory, experience with MIDI, JUCE framework for VST plugin development</li>
                             </ul>
                         </TabPanel>
@@ -146,7 +147,6 @@ export default function Landing() {
                                 <li>C, C++</li>
                                 <li>UI development (QML and C++)</li>
                                 <li>Multi debugger tool</li>
-                                <li>Experience developing for large codebases in HP's print division</li>
                                 <li>Embedded REST APIs and web server development</li>
                             </ul>
                         </TabPanel>
@@ -167,10 +167,9 @@ export default function Landing() {
                         </TabPanel>
                         <TabPanel>
                             <ul>
-                                <li>Wealth of experience with Object-oriented design</li>
-                                <li>Functional programming(React, some Scheme and Prolog)</li>
+                                <li>Wealth of experience with Object-oriented design, UML</li>
+                                <li>Functional programming (React, some Scheme and Prolog)</li>
                                 <li>Industry experience writing context-free grammars & interpretors for proprietary languages</li>
-                                <li>UML</li>
                             </ul>
                         </TabPanel>
                     </Tabs>
