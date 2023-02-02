@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Landing from './Landing';
+import Music from './Music';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+
+      <Router>
+        <a className='home' href='/'>
+          <div className='home-text'>J.K.</div>
         </a>
-      </header>
+        <div className='nav row-reverse'>
+          <a href="/music" className='nav-item'>MUSIC</a>
+          <a href="/" className='nav-item'>CODING</a>
+        </div>
+        <Routes>
+          <Route path='/' element={<Landing />} />
+          <Route path='/music' element={<Music />} />
+
+        </Routes>
+        <footer className='footer'>
+          <div className='col-center'>
+            <p className='no-margin'>thanks for stopping by :-)</p>
+          </div>
+        </footer>
+      </Router>
+
+
+
+
+
     </div>
   );
 }
