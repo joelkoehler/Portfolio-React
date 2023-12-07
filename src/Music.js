@@ -94,35 +94,6 @@ export default function Music() {
                     </ListGroup>
                 </div>
 
-                // <div className='type-small banner'>// News</div>
-                // <div className="skills ul">
-                //     <ListGroup variant="flush">
-                //         <ListGroup.Item className="list-item">
-                //             <p className='list-text'> Recording for With Hesitance's debut EP is nearing completion, to release in 2023.</p>
-                //             <p>January 2023</p> <p><Badge bg="danger">RECORDING</Badge></p>
-                //         </ListGroup.Item>
-                //         <ListGroup.Item className="list-item">
-                //             <p className='list-text'>File Thirteen has ended haitus and is currently working on two EPs.</p>
-                //             <p>November 2022</p> <p><Badge bg="danger">RECORDING</Badge> <Badge bg="secondary">WRITING</Badge></p>
-                //         </ListGroup.Item>
-                //         <ListGroup.Item className="list-item">
-                //             <p className='list-text'>DTR formed, currently in the writing phase.</p>
-                //             <p>November 2022</p> <p><Badge bg="secondary">WRITING</Badge></p>
-                //         </ListGroup.Item>
-                //         <ListGroup.Item className="list-item">
-                //             <p className='list-text'>Recording underway for the first Shutters EP.</p>
-                //             <p>October 2022</p> <p><Badge bg="danger">RECORDING</Badge></p>
-                //         </ListGroup.Item>
-                //         <ListGroup.Item className="list-item">
-                //             <p className='list-text'>File Thirteen single 'Go' live on all platforms.</p>
-                //             <p>January 2021</p> <p><Badge bg="success">RELEASE</Badge> </p>
-                //         </ListGroup.Item>
-                //         <ListGroup.Item className="list-item">
-                //             <p className='list-text'> Shutters single 'A Warm Cell' released on Soundcloud.</p>
-                //             <p>October 2020</p> <p><Badge bg="success">RELEASE</Badge></p>
-                //         </ListGroup.Item>
-                //     </ListGroup>
-                // </div>
 
 
             </div>
