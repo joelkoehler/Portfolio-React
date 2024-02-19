@@ -179,7 +179,7 @@ export default function Landing() {
                 <div className="skills ul">
                     <ListGroup variant="flush">
                         <ListGroup.Item className="list-item">
-                            <p className='list-text'>Embedded Software Engineer | HP</p>
+                            <p className='list-text'>Software Firmware Engineer | HP</p>
                             <p>2021 — <Badge bg="secondary">Present</Badge></p>
                             <p>
                                 I support HP firmware development for a variety of printer models. I have the privilege to work alongside a team that spans multiple continents and cultures, and have gained experience with a complex codebase that contains both vital legacy code and new advancements in embedded firmware. Notable projects include:
